@@ -13,17 +13,17 @@ public class MultiplesOf3And5 {
 		System.out.println(TotalSumDivisibleBy(max));
 	}
 	public static void loopingMethod(int max) {
-			int total = 0;
-			for(int i = 0; i < max; i++) {
-				if(i % 3 == 0 && i % 5 == 0) {
-					total += i;
-				} else if(i % 3 == 0) {
-					total += i;
-				} else if(i % 5 == 0) {
-					total += i;
-				}
+		int total = 0;
+		for(int i = 0; i < max; i++) {
+			if(i % 3 == 0 && i % 5 == 0) {
+				total += i;
+			} else if(i % 3 == 0) {
+				total += i;
+			} else if(i % 5 == 0) {
+				total += i;
 			}
-			System.out.println(total);
+		}
+		System.out.println(total);
 	}
 	
 	public static void arithmeticProgressionMethod(int max) {
